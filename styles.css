@@ -221,6 +221,8 @@ body {
     padding: var(--spacing-4xl) var(--spacing-lg);
     position: relative;
     overflow: hidden;
+    min-height: 100vh;
+    box-sizing: border-box;
 }
 
 .hero::before {
@@ -923,7 +925,11 @@ body {
         font-size: 40px;
     }
     
-    .hero,
+    .hero {
+        min-height: 100vh;
+        padding: var(--spacing-3xl) var(--spacing-lg);
+    }
+    
     .services,
     .products,
     .about,
@@ -947,7 +953,11 @@ body {
         padding: 0 var(--spacing-md);
     }
     
-    .hero,
+    .hero {
+        min-height: 100vh;
+        padding: var(--spacing-2xl) var(--spacing-md);
+    }
+    
     .services,
     .products,
     .about,
