@@ -214,12 +214,11 @@ body {
 .hero {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
-    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 0 var(--spacing-lg);
+    padding: var(--spacing-4xl) var(--spacing-lg);
     position: relative;
     overflow: hidden;
 }
@@ -311,7 +310,6 @@ body {
 
 /* Services Section */
 .services {
-    min-height: 100vh;
     display: flex;
     align-items: center;
     background: var(--apple-gray-1);
@@ -380,7 +378,6 @@ body {
 
 /* Products Section */
 .products {
-    min-height: 100vh;
     display: flex;
     align-items: center;
     background: white;
@@ -560,7 +557,6 @@ body {
 
 /* About Section */
 .about {
-    min-height: 100vh;
     display: flex;
     align-items: center;
     background: var(--apple-gray-1);
@@ -632,7 +628,6 @@ body {
 
 /* Contact Section */
 .contact {
-    min-height: 100vh;
     display: flex;
     align-items: center;
     background: white;
@@ -933,7 +928,6 @@ body {
     .products,
     .about,
     .contact {
-        min-height: 100vh;
         padding: var(--spacing-3xl) 0;
     }
 }
@@ -958,7 +952,6 @@ body {
     .products,
     .about,
     .contact {
-        min-height: 100vh;
         padding: var(--spacing-2xl) 0;
     }
     
