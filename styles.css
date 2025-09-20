@@ -286,13 +286,13 @@ body {
 }
 
 .btn-primary {
-    background: #007AFF;
+    background: #FF3B30;
     color: white;
     box-shadow: var(--shadow-sm);
 }
 
 .btn-primary:hover {
-    background: #0056CC;
+    background: #D70015;
     transform: translateY(-1px);
     box-shadow: var(--shadow-md);
 }
@@ -311,25 +311,25 @@ body {
 }
 
 .btn-success {
-    background: #5AC8FA;
+    background: #34C759;
     color: white;
     box-shadow: var(--shadow-sm);
 }
 
 .btn-success:hover {
-    background: #4AB8EA;
+    background: #2DB04A;
     transform: translateY(-1px);
     box-shadow: var(--shadow-md);
 }
 
 .btn-warning {
-    background: #5856D6;
+    background: #FF9500;
     color: white;
     box-shadow: var(--shadow-sm);
 }
 
 .btn-warning:hover {
-    background: #4A4AC7;
+    background: #E6850E;
     transform: translateY(-1px);
     box-shadow: var(--shadow-md);
 }
