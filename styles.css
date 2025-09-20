@@ -286,7 +286,7 @@ body {
 }
 
 .btn-primary {
-    background: var(--apple-blue);
+    background: #007AFF;
     color: white;
     box-shadow: var(--shadow-sm);
 }
@@ -308,6 +308,30 @@ body {
 .btn-secondary:hover {
     background: rgba(255, 255, 255, 0.3);
     border-color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-success {
+    background: #5AC8FA;
+    color: white;
+    box-shadow: var(--shadow-sm);
+}
+
+.btn-success:hover {
+    background: #4AB8EA;
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
+}
+
+.btn-warning {
+    background: #5856D6;
+    color: white;
+    box-shadow: var(--shadow-sm);
+}
+
+.btn-warning:hover {
+    background: #4A4AC7;
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
 }
 
 /* Services Section */
