@@ -6,7 +6,7 @@
     <title>digital technics - Software Solutions Since 2000</title>
     <link rel="icon" type="image/png" href="assets/logo32x32.png">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@100;200;300;400;500;600;700;800;900&family=SF+Pro+Text:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
@@ -16,12 +16,30 @@
                 <img src="assets/logo32x32.png" alt="Digital Technics Logo" class="logo">
                 <h2>digital technics</h2>
             </div>
+            
+            <!-- Mobile Menu Toggle -->
+            <button class="nav-toggle" aria-label="Toggle navigation menu">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </button>
+            
             <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#products" class="nav-link">Products</a>
+                </li>                
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link nav-cta">Contact</a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -32,6 +50,7 @@
             <h2>SMART DIGITALIZATION TECHNIQUES</h2>
             <p>Since 2000, we've been delivering cutting-edge software solutions, enterprise development, and customizations that drive business success.</p>
             <div class="hero-buttons">
+                <a href="#products" class="btn btn-primary">Our Products</a>
                 <a href="#services" class="btn btn-primary">Our Services</a>
                 <a href="#contact" class="btn btn-secondary">Get Started</a>
             </div>
@@ -66,39 +85,78 @@
     <!-- Products Section -->
     <section id="products" class="products">
         <div class="container">
-            <h2>Our Products</h2>
+            <div class="products-header">
+                <h2>Our Products</h2>
+                <p class="products-subtitle">Comprehensive software solutions designed to transform your business operations</p>
+            </div>
             <div class="products-grid">
                 <div class="product-card">
-                    <h3>ACTIS</h3>
-                    <p>ERP Solution - A comprehensive platform for managing Financials, Inventory, Human Resources, Fleet, etc. ACTIS provides real-time insights and automated workflows to enhance customer experience and operational efficiency.</p>
-                    <ul>
-                        <li>2 Step Approval For Financial Transactions</li>
-                        <li>Customer Behavior Analytics</li>
-                        <li>Credit Control Management</li>
-                        <li>Delivery Management Schedule</li>
-                        <li>HR & Payroll Management</li>
-                        <li>Integration with Existing Systems</li>
-                    </ul>
+                    <div class="product-header">
+                        <div class="product-icon">🏢</div>
+                        <div class="product-title-section">
+                            <h3>ACTIS</h3>
+                            <span class="product-category">Enterprise Resource Planning Solution</span>
+                        </div>
+                    </div>
+                    <p class="product-description">A comprehensive platform for managing Financials, Inventory, Human Resources, Fleet, and more. ACTIS provides real-time insights and automated workflows to enhance customer experience and operational efficiency.</p>
+                    <div class="product-features">
+                        <h4>Key Features</h4>
+                        <ul>
+                            <li>2 Step Approval For Financial Transactions</li>
+                            <li>Customer Behavior Analytics</li>
+                            <li>Credit Control Management</li>
+                            <li>Delivery Management Schedule</li>
+                            <li>HR & Payroll Management</li>
+                            <li>Integration with Existing Systems</li>
+                        </ul>
+                    </div>
+                    <div class="product-cta">
+                        <a href="#contact" class="btn btn-outline">Learn More</a>
+                    </div>
                 </div>
                 <div class="product-card">
-                    <h3>DTHMS</h3>
-                    <p>EMR Solutions -Healthcare Management System - A specialized solution designed for healthcare providers to streamline patient management, appointment scheduling, and medical record keeping with full compliance and security features.</p>
-                    <ul>
-                        <li>Patient Record Management</li>
-                        <li>Appointment Scheduling</li>
-                        <li>Opthalmology Management</li>
-                        <li>Medical Billing Integration</li>
-                    </ul>
+                    <div class="product-header">
+                        <div class="product-icon">🏥</div>
+                        <div class="product-title-section">
+                            <h3>DTHMS</h3>
+                            <span class="product-category">Healthcare Management System</span>
+                        </div>
+                    </div>
+                    <p class="product-description">A specialized solution designed for healthcare providers to streamline patient management, appointment scheduling, and medical record keeping with full compliance and security features.</p>
+                    <div class="product-features">
+                        <h4>Key Features</h4>
+                        <ul>
+                            <li>Patient Record Management</li>
+                            <li>Appointment Scheduling</li>
+                            <li>Ophthalmology Management</li>
+                            <li>Medical Billing Integration</li>
+                        </ul>
+                    </div>
+                    <div class="product-cta">
+                        <a href="#contact" class="btn btn-outline">Learn More</a>
+                    </div>
                 </div>
                 <div class="product-card">
-                    <h3>DTLAB</h3>
-                    <p>Digital Technics Laboratory Management System - An innovative platform for research and development teams to manage experiments, track results, and collaborate effectively. DTLAB accelerates innovation through intelligent data management and analysis tools.</p>
-                    <ul>
-                        <li>Experiment Tracking and Documentation</li>
-                        <li>Data Analysis and Visualization</li>
-                        <li>Team Collaboration Tools</li>
-                        <li>Research Workflow Automation</li>
-                    </ul>
+                    <div class="product-header">
+                        <div class="product-icon">🔬</div>
+                        <div class="product-title-section">
+                            <h3>DTLAB</h3>
+                            <span class="product-category">Laboratory Management System</span>
+                        </div>
+                    </div>
+                    <p class="product-description">An innovative platform for research and development teams to manage experiments, track results, and collaborate effectively. DTLAB accelerates innovation through intelligent data management and analysis tools.</p>
+                    <div class="product-features">
+                        <h4>Key Features</h4>
+                        <ul>
+                            <li>Experiment Tracking and Documentation</li>
+                            <li>Data Analysis and Visualization</li>
+                            <li>Team Collaboration Tools</li>
+                            <li>Research Workflow Automation</li>
+                        </ul>
+                    </div>
+                    <div class="product-cta">
+                        <a href="#contact" class="btn btn-outline">Learn More</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -226,6 +284,32 @@
     </footer>
 
     <script>
+        // Mobile menu toggle
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        navToggle.addEventListener('click', function() {
+            navToggle.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking on a link
+        navLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                navToggle.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function(e) {
+            if (!navToggle.contains(e.target) && !navMenu.contains(e.target)) {
+                navToggle.classList.remove('active');
+                navMenu.classList.remove('active');
+            }
+        });
+
         // Smooth scrolling for navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
@@ -236,6 +320,28 @@
                         behavior: 'smooth',
                         block: 'start'
                     });
+                }
+            });
+        });
+
+        // Active navigation link highlighting
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('.nav-link');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= (sectionTop - 200)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === '#' + current) {
+                    link.classList.add('active');
                 }
             });
         });
