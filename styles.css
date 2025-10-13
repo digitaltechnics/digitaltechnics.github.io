@@ -861,7 +861,7 @@ body {
 }
 
 .footer-bottom p {
-    color: var(--apple-gray-5);
+    color: white;
     font-size: 17px;
     letter-spacing: -0.022em;
 }
