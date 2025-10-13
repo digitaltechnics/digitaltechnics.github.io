@@ -784,8 +784,8 @@ body {
 
 /* Footer */
 .footer {
-    background: var(--apple-gray-11);
-    color: white;
+    background:  #4AB8EA;
+    color: black;
     padding: var(--spacing-3xl) 0 var(--spacing-lg);
 }
 
@@ -812,7 +812,7 @@ body {
 .footer-section h3,
 .footer-section h4 {
     margin-bottom: var(--spacing-md);
-    color: white;
+    color: black;
     font-family: var(--font-display);
     font-weight: 600;
     letter-spacing: -0.022em;
@@ -828,7 +828,7 @@ body {
 }
 
 .footer-section p {
-    color: var(--apple-gray-5);
+    color: var(--black);
     line-height: 1.47;
     font-size: 17px;
     letter-spacing: -0.022em;
@@ -843,7 +843,7 @@ body {
 }
 
 .footer-section ul li a {
-    color: var(--apple-gray-5);
+    color: var(--black);
     text-decoration: none;
     transition: color 0.2s ease;
     font-size: 17px;
@@ -851,17 +851,24 @@ body {
 }
 
 .footer-section ul li a:hover {
-    color: var(--apple-blue);
+    color: var(--black);
 }
 
+.footer-quote {
+    color: white;
+    border-top: 2px solid var(--apple-gray-8);
+    border-bottom: 2px solid var(--apple-gray-8);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: -0.022em;
+}
 .footer-bottom {
+    color: black;
     border-top: 0.5px solid var(--apple-gray-8);
     padding-top: var(--spacing-md);
     text-align: center;
-}
-
-.footer-bottom p {
-    color: var(--apple-blue);
     font-size: 17px;
     letter-spacing: -0.022em;
 }
